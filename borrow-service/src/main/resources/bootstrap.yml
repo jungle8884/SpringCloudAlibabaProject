@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: borrow-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: 81.71.99.53:80
+        username: nacos
+        password: java711cSSS#

@@ -1,0 +1,22 @@
+server:
+  port: 8201
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-wz9ot913oj95bb0eguo.mysql.rds.aliyuncs.com:3306/cloudstudy
+    username: jungle8848
+    password: java711cSSS#
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 81.71.99.53:80
+        username: nacos
+        password: java711cSSS#
+        namespace: e4bf9822-1052-4c7b-a567-10f7fff2a1bd
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+test:
+  txt: jungle8884@163.com
