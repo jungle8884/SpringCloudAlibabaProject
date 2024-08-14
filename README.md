@@ -1,1 +1,3 @@
 # SpringCloudAlibabaProject
+
+这是一个关于SpringCloudAlibaba开发框架的搭建模板
