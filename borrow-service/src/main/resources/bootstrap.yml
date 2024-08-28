@@ -7,6 +7,6 @@ spring:
     nacos:
       config:
         file-extension: yml
-        server-addr: 81.71.99.53:80
+        server-addr: localhost:8801
         username: nacos
         password: java711cSSS#

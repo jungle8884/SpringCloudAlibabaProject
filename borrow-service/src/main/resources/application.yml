@@ -8,23 +8,13 @@ spring:
       config:
         enabled: true
       discovery:
-        server-addr: 81.71.99.53:80
+        server-addr: localhost:8801
         username: nacos
         password: java711cSSS#
         namespace: e4bf9822-1052-4c7b-a567-10f7fff2a1bd
         ephemeral: true
         cluster-name: sz
-    sentinel:
-      transport:
-        dashboard: localhost:8858
-      # 链路流控模式:关闭Context收敛，这样被监控方法可以进行不同链路的单独控制
-      web-context-unify: false
-      # 将刚刚编写的请求映射设定为限流页面
-      block-page: /blocked
     loadbalancer:
       nacos:
         enabled: true
-feign:
-  sentinel:
-    enabled: true
 
